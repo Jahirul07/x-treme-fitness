@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Photo from './photo.png'
 import './Cart.css'
 const Cart = (props) => {
+    const [breakTime, setBreakTime] = useState(0)
+    const breakTimeHandler = (time) =>{
+        setBreakTime(time)
+        localStorage.setItem('time-break', time)
+    }
     const {cart} = props;
-    console.log(cart.time)
+    let totalTime = 0;
+    for(const exercise of cart){
+        totalTime = totalTime + exercise.time;
+    }
     return (
         <div className='cart'>
             <div className='personal-info'>
@@ -32,20 +40,20 @@ const Cart = (props) => {
             <div className='break'>
                 <h1>Add A Break</h1>
                 <div className='break-btn'>
-                    <div>10<small>s</small></div>
-                    <div>20<small>s</small></div>
-                    <div>30<small>s</small></div>
-                    <div>40<small>s</small></div>
-                    <div>50<small>s</small></div>
+                    <div onClick={() => breakTimeHandler(10)}>10<small>s</small></div>
+                    <div onClick={() => breakTimeHandler(20)}>20<small>s</small></div>
+                    <div onClick={() => breakTimeHandler(30)}>30<small>s</small></div>
+                    <div onClick={() => breakTimeHandler(40)}>40<small>s</small></div>
+                    <div onClick={() => breakTimeHandler(50)}>50<small>s</small></div>
                 </div>
             </div>
             <div className='exercise-details'>
                 <h1 className='details-header'>Exercise Details</h1>
                 <div className='details-exercise'>
-                    <h3>Exercise time: {cart.time}</h3>
+                    <h3>Exercise time: {totalTime}</h3>
                 </div>
                 <div className='details-time'>
-                    <h3>Break Time: </h3>
+                    <h3>Break Time: {breakTime}</h3>
                 </div>
             </div>
             <button className='complete-btn'>Activity Completed</button>

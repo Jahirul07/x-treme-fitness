@@ -1,32 +1,44 @@
 [
-    {
+    { 
+      "id": "636fa88397192597dc885a3c",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/cybex-vr2-chestpress-1-1.jpg",
       "name": "CHEST PRESS MACHINE",
-      "age": "20 - 37"
+      "age": "20 - 37",
+      "time": "30"
     },
-    {
+    { 
+      "id": "636fa88310fa20a4afb8d40d",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/03/hammer-strength-plate-loaded-seated-dip-600x600.jpg",
       "name": "CSEATED DIP MACHINE",
-      "age": "23 - 29"
+      "age": "23 - 29",
+      "time": "40"
     },
     {
+      "id": "636fa8838d484b5b5bcef0fc",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/life-fitness-signature-pecfly-2-e1559941242112.jpg",
       "name": "CHEST FLY MACHINE",
-      "age": "25 - 32"
+      "age": "25 - 32",
+      "time": "50"
     },
     {
+      "id": "636fa8831ed5ed7e0078b2f3",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/olympic-flat-bench-600x600.jpg",
       "name": "BENCH PRESS",
-      "age": "22 - 28"
+      "age": "22 - 28",
+      "time": "30"
     },
     {
+      "id": "636fa883cd77f5a0c8fba8d8",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/olympic-incline-bench-600x600.jpg",
       "name": "INCLINE BENCH PRESS",
-      "age": "21 - 39"
+      "age": "21 - 39",
+      "time": "45"
     },
     {
+      "id": "636fa8838ff5a5fe63c88de6",
       "picture": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/hammer-strength-olympic-decline-bench-600x600.jpg",
       "name": "DECLINE BENCH PRESS",
-      "age": "23 - 40"
+      "age": "23 - 40",
+      "time": "40"
     }
   ]

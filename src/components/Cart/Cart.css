@@ -51,7 +51,23 @@
     background-color: #0E5E6F;
     border-radius: 70%;
 }
-.details-header p{
-    font-size: 30px;
-    font-weight: 600;
+
+.details-exercise, .details-time{
+    align-items: center;
+    background-color: antiquewhite;
+    height: 50px;
+}
+.complete-btn{
+    width: 100%;
+    height: 45px;
+    background-color: #3A8891;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
 }

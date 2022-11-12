@@ -29,7 +29,7 @@ const Cart = () => {
                 </div>
             </div>
             <div className='break'>
-                <p>Add A Break</p>
+                <h1>Add A Break</h1>
                 <div className='break-btn'>
                     <div>10<small>s</small></div>
                     <div>20<small>s</small></div>
@@ -39,14 +39,15 @@ const Cart = () => {
                 </div>
             </div>
             <div className='exercise-details'>
-                <p className='details-header'>Exercise Details</p>
-                <div>
-                    <p>Exercise time: </p>
+                <h1 className='details-header'>Exercise Details</h1>
+                <div className='details-exercise'>
+                    <h3>Exercise time: </h3>
                 </div>
-                <div>
-                    <p>Break Time: </p>
+                <div className='details-time'>
+                    <h3>Break Time: </h3>
                 </div>
             </div>
+            <button className='complete-btn'>Activity Completed</button>
         </div>
     );
 };

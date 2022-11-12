@@ -1,8 +1,9 @@
 import React from 'react';
 import Photo from './photo.png'
 import './Cart.css'
-const Cart = () => {
-
+const Cart = (props) => {
+    const {cart} = props;
+    console.log(cart.time)
     return (
         <div className='cart'>
             <div className='personal-info'>
@@ -41,7 +42,7 @@ const Cart = () => {
             <div className='exercise-details'>
                 <h1 className='details-header'>Exercise Details</h1>
                 <div className='details-exercise'>
-                    <h3>Exercise time: </h3>
+                    <h3>Exercise time: {cart.time}</h3>
                 </div>
                 <div className='details-time'>
                     <h3>Break Time: </h3>

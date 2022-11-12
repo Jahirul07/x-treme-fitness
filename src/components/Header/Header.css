@@ -21,3 +21,15 @@
 .header a:hover{
     color: rgb(186, 26, 11);
 }
+@media screen and (max-width: 600px){
+    .header{
+        flex-direction: column;
+        height: 60px;
+    }
+    .header p{
+        font-size: 20px;
+    }
+    .header a{
+        display: none;
+    }
+}

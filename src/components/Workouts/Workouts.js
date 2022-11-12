@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Cart from '../Cart/Cart';
 import Workout from '../Workout/Workout';
 import './Workouts.css'
 
@@ -17,7 +18,7 @@ const Service = () => {
                 }
             </div>
             <div className="cart-container">
-                
+                <Cart></Cart>
             </div>
         </div>
     );

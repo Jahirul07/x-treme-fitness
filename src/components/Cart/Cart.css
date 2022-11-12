@@ -16,3 +16,42 @@
     line-height: 8px;
     font-size: 20px;
 }
+.body-structure{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-evenly;
+    line-height: 5px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+.break p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.break-btn{
+    display: flex;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 5px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+.break-btn div{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.break-btn div:hover{
+    color: #fff;
+    padding: 15px;
+    background-color: #0E5E6F;
+    border-radius: 70%;
+}
+.details-header p{
+    font-size: 30px;
+    font-weight: 600;
+}

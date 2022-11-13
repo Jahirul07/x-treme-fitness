@@ -1,5 +1,5 @@
 .workout{
-    width: 350px;
+    width: 300px;
     height: 510px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
@@ -8,7 +8,7 @@
 }
 
 .workout img{
-    width: 335px;
+    width: 286px;
     height: 286px;
     border-radius: 8px;
     margin: 7px;

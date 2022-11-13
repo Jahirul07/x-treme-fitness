@@ -27,7 +27,7 @@ const Cart = (props) => {
                 </div>
                 <div className='body-info'>
                     <h4>jahirul Islam</h4>
-                    <p>Dhaka Bangladesh</p>
+                    <p className='location'>Dhaka Bangladesh</p>
                 </div>
             </div>
             <div className='body-structure'>
@@ -45,7 +45,7 @@ const Cart = (props) => {
                 </div>
             </div>
             <div className='break'>
-                <h1>Add A Break</h1>
+                <h2>Add A Break</h2>
                 <div className='break-btn'>
                     <div onClick={() => breakTimeHandler(10)}>10<small>s</small></div>
                     <div onClick={() => breakTimeHandler(20)}>20<small>s</small></div>
@@ -55,7 +55,7 @@ const Cart = (props) => {
                 </div>
             </div>
             <div className='exercise-details'>
-                <h1 className='details-header'>Exercise Details</h1>
+                <h2 className='details-header'>Exercise Details</h2>
                 <div className='details-exercise'>
                     <h3>Exercise time: {totalTime}</h3>
                 </div>

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Photo from './photo.png'
 import './Cart.css'
 const Cart = (props) => {
@@ -12,6 +14,11 @@ const Cart = (props) => {
     for(const exercise of cart){
         totalTime = totalTime + exercise.time;
     }
+    const showToastMessage = () => {
+        toast.success('Activity Completed !!', {
+            position: toast.POSITION.TOP_RIGHT
+        });
+    };
     return (
         <div className='cart'>
             <div className='personal-info'>
@@ -56,7 +63,10 @@ const Cart = (props) => {
                     <h3>Break Time: {breakTime}</h3>
                 </div>
             </div>
-            <button className='complete-btn'>Activity Completed</button>
+            <div>
+            <button onClick={showToastMessage} className='complete-btn'>Activity Completed</button>
+            <ToastContainer />
+            </div>
         </div>
     );
 };

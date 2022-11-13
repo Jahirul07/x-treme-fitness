@@ -11,6 +11,10 @@
 }
 .cart-container{
     background-color: #F2DEBA;
+    height: 700px;
+    position: sticky;
+    border-radius:0px 0px 8px 8px;
+    right: 0;
 }
 
 @media screen and (max-width: 600px){
